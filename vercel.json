@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "crons": [
+    { "path": "/api/agent/run?step=sources", "schedule": "0 23 * * *" },
+    { "path": "/api/agent/run?step=others", "schedule": "10 23 * * *" }
+  ]
+}
