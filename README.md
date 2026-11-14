@@ -130,7 +130,7 @@ The project is set up for Vercel: import the repository, add the same variables 
 - The project inbox (forwarding university e-mails) is implemented (IMAP reader plus the same extractor), but it has not been run end to end: it needs a Gmail address and an app password, and it is switched off in the demo.
 - Some university sites block automated readers or publish no event data; the agent skips those and logs why.
 
-Made by Aibar, Shyngys, Yerassyl, Yermukhamed
+Made by Aibar, Shyngys, Yerassyl, Yermukhammed
 
 ## Data
 
