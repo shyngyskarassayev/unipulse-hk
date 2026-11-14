@@ -130,6 +130,8 @@ The project is set up for Vercel: import the repository, add the same variables 
 - The project inbox (forwarding university e-mails) is implemented (IMAP reader plus the same extractor), but it has not been run end to end: it needs a Gmail address and an app password, and it is switched off in the demo.
 - Some university sites block automated readers or publish no event data; the agent skips those and logs why.
 
+Made by Aibar, Shyngys, Yerassyl, Yermukhamed
+
 ## Data
 
 The starter list in `data/seed-events.json` was collected on 13 November 2026 from the HKUST events calendar, StartmeupHK, HKCERT, GS1 Hong Kong, Time Auction, Crossroads Foundation and the CUHK Career Planning and Development Centre. Every entry links to the page it came from. Where a source gave a date without a time, the event is stored as a whole-day entry; deadlines given as a date run to the end of that day.
